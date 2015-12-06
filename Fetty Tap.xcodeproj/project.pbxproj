@@ -1,0 +1,397 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FC7FCED81BBCDD0800D6B121 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FC7FCED31BBCDD0800D6B121 /* Assets.xcassets */; };
+		FC7FCED91BBCDD0800D6B121 /* Base.lproj in Resources */ = {isa = PBXBuildFile; fileRef = FC7FCED41BBCDD0800D6B121 /* Base.lproj */; };
+		FCD29E421BBC735D00E21106 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCD29E411BBC735D00E21106 /* AppDelegate.swift */; };
+		FCD29E441BBC735D00E21106 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCD29E431BBC735D00E21106 /* ViewController.swift */; };
+		FCD29E471BBC735D00E21106 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FCD29E451BBC735D00E21106 /* Main.storyboard */; };
+		FCD29E491BBC735D00E21106 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FCD29E481BBC735D00E21106 /* Assets.xcassets */; };
+		FCD29E4C1BBC735D00E21106 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FCD29E4A1BBC735D00E21106 /* LaunchScreen.storyboard */; };
+		FCE0AB331C13BD1400AEDD8F /* 1738 2.png in Resources */ = {isa = PBXBuildFile; fileRef = FCE0AB1D1C13BD1400AEDD8F /* 1738 2.png */; };
+		FCE0AB341C13BD1400AEDD8F /* 1738.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = FCE0AB1E1C13BD1400AEDD8F /* 1738.mp3 */; };
+		FCE0AB351C13BD1400AEDD8F /* 1738.png in Resources */ = {isa = PBXBuildFile; fileRef = FCE0AB1F1C13BD1400AEDD8F /* 1738.png */; };
+		FCE0AB361C13BD1400AEDD8F /* comemyway 2.png in Resources */ = {isa = PBXBuildFile; fileRef = FCE0AB201C13BD1400AEDD8F /* comemyway 2.png */; };
+		FCE0AB371C13BD1400AEDD8F /* comemyway.png in Resources */ = {isa = PBXBuildFile; fileRef = FCE0AB211C13BD1400AEDD8F /* comemyway.png */; };
+		FCE0AB381C13BD1400AEDD8F /* HeyWhatsUpHello 2.png in Resources */ = {isa = PBXBuildFile; fileRef = FCE0AB221C13BD1400AEDD8F /* HeyWhatsUpHello 2.png */; };
+		FCE0AB391C13BD1400AEDD8F /* HeyWhatsUpHello.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = FCE0AB231C13BD1400AEDD8F /* HeyWhatsUpHello.mp3 */; };
+		FCE0AB3A1C13BD1400AEDD8F /* HeyWhatsUpHello.png in Resources */ = {isa = PBXBuildFile; fileRef = FCE0AB241C13BD1400AEDD8F /* HeyWhatsUpHello.png */; };
+		FCE0AB3B1C13BD1400AEDD8F /* myway.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = FCE0AB251C13BD1400AEDD8F /* myway.mp3 */; };
+		FCE0AB3C1C13BD1400AEDD8F /* sewedup 2.png in Resources */ = {isa = PBXBuildFile; fileRef = FCE0AB261C13BD1400AEDD8F /* sewedup 2.png */; };
+		FCE0AB3D1C13BD1400AEDD8F /* sewedup.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = FCE0AB271C13BD1400AEDD8F /* sewedup.mp3 */; };
+		FCE0AB3E1C13BD1400AEDD8F /* sewedup.png in Resources */ = {isa = PBXBuildFile; fileRef = FCE0AB281C13BD1400AEDD8F /* sewedup.png */; };
+		FCE0AB3F1C13BD1400AEDD8F /* squad 2.png in Resources */ = {isa = PBXBuildFile; fileRef = FCE0AB291C13BD1400AEDD8F /* squad 2.png */; };
+		FCE0AB401C13BD1400AEDD8F /* squad.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = FCE0AB2A1C13BD1400AEDD8F /* squad.mp3 */; };
+		FCE0AB411C13BD1400AEDD8F /* squad.png in Resources */ = {isa = PBXBuildFile; fileRef = FCE0AB2B1C13BD1400AEDD8F /* squad.png */; };
+		FCE0AB421C13BD1400AEDD8F /* Yeaaaaaah.png in Resources */ = {isa = PBXBuildFile; fileRef = FCE0AB2C1C13BD1400AEDD8F /* Yeaaaaaah.png */; };
+		FCE0AB431C13BD1400AEDD8F /* Yeaaaaah 2.png in Resources */ = {isa = PBXBuildFile; fileRef = FCE0AB2D1C13BD1400AEDD8F /* Yeaaaaah 2.png */; };
+		FCE0AB441C13BD1400AEDD8F /* YEAAAH.png in Resources */ = {isa = PBXBuildFile; fileRef = FCE0AB2E1C13BD1400AEDD8F /* YEAAAH.png */; };
+		FCE0AB451C13BD1400AEDD8F /* Yeah baby 2.png in Resources */ = {isa = PBXBuildFile; fileRef = FCE0AB2F1C13BD1400AEDD8F /* Yeah baby 2.png */; };
+		FCE0AB461C13BD1400AEDD8F /* Yeah baby.png in Resources */ = {isa = PBXBuildFile; fileRef = FCE0AB301C13BD1400AEDD8F /* Yeah baby.png */; };
+		FCE0AB471C13BD1400AEDD8F /* yeah.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = FCE0AB311C13BD1400AEDD8F /* yeah.mp3 */; };
+		FCE0AB481C13BD1400AEDD8F /* yeahbaby.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = FCE0AB321C13BD1400AEDD8F /* yeahbaby.mp3 */; };
+		FCE0AB4A1C13BD9B00AEDD8F /* fettytap.png in Resources */ = {isa = PBXBuildFile; fileRef = FCE0AB491C13BD9B00AEDD8F /* fettytap.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		FC7FCED31BBCDD0800D6B121 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = 1/Assets.xcassets; sourceTree = "<group>"; };
+		FC7FCED41BBCDD0800D6B121 /* Base.lproj */ = {isa = PBXFileReference; lastKnownFileType = folder; name = Base.lproj; path = 1/Base.lproj; sourceTree = "<group>"; };
+		FCD29E3E1BBC735D00E21106 /* Fetty Tap.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Fetty Tap.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FCD29E411BBC735D00E21106 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		FCD29E431BBC735D00E21106 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		FCD29E461BBC735D00E21106 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FCD29E481BBC735D00E21106 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FCD29E4B1BBC735D00E21106 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FCD29E4D1BBC735D00E21106 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FCE0AB1D1C13BD1400AEDD8F /* 1738 2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "1738 2.png"; path = "fettytap/1738 2.png"; sourceTree = SOURCE_ROOT; };
+		FCE0AB1E1C13BD1400AEDD8F /* 1738.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = 1738.mp3; path = fettytap/1738.mp3; sourceTree = SOURCE_ROOT; };
+		FCE0AB1F1C13BD1400AEDD8F /* 1738.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = 1738.png; path = fettytap/1738.png; sourceTree = SOURCE_ROOT; };
+		FCE0AB201C13BD1400AEDD8F /* comemyway 2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "comemyway 2.png"; path = "fettytap/comemyway 2.png"; sourceTree = SOURCE_ROOT; };
+		FCE0AB211C13BD1400AEDD8F /* comemyway.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = comemyway.png; path = fettytap/comemyway.png; sourceTree = SOURCE_ROOT; };
+		FCE0AB221C13BD1400AEDD8F /* HeyWhatsUpHello 2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "HeyWhatsUpHello 2.png"; path = "fettytap/HeyWhatsUpHello 2.png"; sourceTree = SOURCE_ROOT; };
+		FCE0AB231C13BD1400AEDD8F /* HeyWhatsUpHello.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = HeyWhatsUpHello.mp3; path = fettytap/HeyWhatsUpHello.mp3; sourceTree = SOURCE_ROOT; };
+		FCE0AB241C13BD1400AEDD8F /* HeyWhatsUpHello.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = HeyWhatsUpHello.png; path = fettytap/HeyWhatsUpHello.png; sourceTree = SOURCE_ROOT; };
+		FCE0AB251C13BD1400AEDD8F /* myway.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = myway.mp3; path = fettytap/myway.mp3; sourceTree = SOURCE_ROOT; };
+		FCE0AB261C13BD1400AEDD8F /* sewedup 2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "sewedup 2.png"; path = "fettytap/sewedup 2.png"; sourceTree = SOURCE_ROOT; };
+		FCE0AB271C13BD1400AEDD8F /* sewedup.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = sewedup.mp3; path = fettytap/sewedup.mp3; sourceTree = SOURCE_ROOT; };
+		FCE0AB281C13BD1400AEDD8F /* sewedup.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = sewedup.png; path = fettytap/sewedup.png; sourceTree = SOURCE_ROOT; };
+		FCE0AB291C13BD1400AEDD8F /* squad 2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "squad 2.png"; path = "fettytap/squad 2.png"; sourceTree = SOURCE_ROOT; };
+		FCE0AB2A1C13BD1400AEDD8F /* squad.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = squad.mp3; path = fettytap/squad.mp3; sourceTree = SOURCE_ROOT; };
+		FCE0AB2B1C13BD1400AEDD8F /* squad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = squad.png; path = fettytap/squad.png; sourceTree = SOURCE_ROOT; };
+		FCE0AB2C1C13BD1400AEDD8F /* Yeaaaaaah.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Yeaaaaaah.png; path = fettytap/Yeaaaaaah.png; sourceTree = SOURCE_ROOT; };
+		FCE0AB2D1C13BD1400AEDD8F /* Yeaaaaah 2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Yeaaaaah 2.png"; path = "fettytap/Yeaaaaah 2.png"; sourceTree = SOURCE_ROOT; };
+		FCE0AB2E1C13BD1400AEDD8F /* YEAAAH.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = YEAAAH.png; path = fettytap/YEAAAH.png; sourceTree = SOURCE_ROOT; };
+		FCE0AB2F1C13BD1400AEDD8F /* Yeah baby 2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Yeah baby 2.png"; path = "fettytap/Yeah baby 2.png"; sourceTree = SOURCE_ROOT; };
+		FCE0AB301C13BD1400AEDD8F /* Yeah baby.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Yeah baby.png"; path = "fettytap/Yeah baby.png"; sourceTree = SOURCE_ROOT; };
+		FCE0AB311C13BD1400AEDD8F /* yeah.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = yeah.mp3; path = fettytap/yeah.mp3; sourceTree = SOURCE_ROOT; };
+		FCE0AB321C13BD1400AEDD8F /* yeahbaby.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = yeahbaby.mp3; path = fettytap/yeahbaby.mp3; sourceTree = SOURCE_ROOT; };
+		FCE0AB491C13BD9B00AEDD8F /* fettytap.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = fettytap.png; path = ../../../../AndroidStudioProjects/FettyTap/app/src/main/res/drawable/fettytap.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FCD29E3B1BBC735D00E21106 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FCD29E351BBC735D00E21106 = {
+			isa = PBXGroup;
+			children = (
+				FC7FCED31BBCDD0800D6B121 /* Assets.xcassets */,
+				FC7FCED41BBCDD0800D6B121 /* Base.lproj */,
+				FCD29E401BBC735D00E21106 /* Fetty Tap */,
+				FCD29E3F1BBC735D00E21106 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FCD29E3F1BBC735D00E21106 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FCD29E3E1BBC735D00E21106 /* Fetty Tap.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FCD29E401BBC735D00E21106 /* Fetty Tap */ = {
+			isa = PBXGroup;
+			children = (
+				FCD29E411BBC735D00E21106 /* AppDelegate.swift */,
+				FCD29E431BBC735D00E21106 /* ViewController.swift */,
+				FCD29E451BBC735D00E21106 /* Main.storyboard */,
+				FCE0AB491C13BD9B00AEDD8F /* fettytap.png */,
+				FCE0AB1D1C13BD1400AEDD8F /* 1738 2.png */,
+				FCE0AB1E1C13BD1400AEDD8F /* 1738.mp3 */,
+				FCE0AB1F1C13BD1400AEDD8F /* 1738.png */,
+				FCE0AB201C13BD1400AEDD8F /* comemyway 2.png */,
+				FCE0AB211C13BD1400AEDD8F /* comemyway.png */,
+				FCE0AB221C13BD1400AEDD8F /* HeyWhatsUpHello 2.png */,
+				FCE0AB231C13BD1400AEDD8F /* HeyWhatsUpHello.mp3 */,
+				FCE0AB241C13BD1400AEDD8F /* HeyWhatsUpHello.png */,
+				FCE0AB251C13BD1400AEDD8F /* myway.mp3 */,
+				FCE0AB261C13BD1400AEDD8F /* sewedup 2.png */,
+				FCE0AB271C13BD1400AEDD8F /* sewedup.mp3 */,
+				FCE0AB281C13BD1400AEDD8F /* sewedup.png */,
+				FCE0AB291C13BD1400AEDD8F /* squad 2.png */,
+				FCE0AB2A1C13BD1400AEDD8F /* squad.mp3 */,
+				FCE0AB2B1C13BD1400AEDD8F /* squad.png */,
+				FCE0AB2C1C13BD1400AEDD8F /* Yeaaaaaah.png */,
+				FCE0AB2D1C13BD1400AEDD8F /* Yeaaaaah 2.png */,
+				FCE0AB2E1C13BD1400AEDD8F /* YEAAAH.png */,
+				FCE0AB2F1C13BD1400AEDD8F /* Yeah baby 2.png */,
+				FCE0AB301C13BD1400AEDD8F /* Yeah baby.png */,
+				FCE0AB311C13BD1400AEDD8F /* yeah.mp3 */,
+				FCE0AB321C13BD1400AEDD8F /* yeahbaby.mp3 */,
+				FCD29E481BBC735D00E21106 /* Assets.xcassets */,
+				FCD29E4A1BBC735D00E21106 /* LaunchScreen.storyboard */,
+				FCD29E4D1BBC735D00E21106 /* Info.plist */,
+			);
+			name = "Fetty Tap";
+			path = 1;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FCD29E3D1BBC735D00E21106 /* Fetty Tap */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FCD29E501BBC735D00E21106 /* Build configuration list for PBXNativeTarget "Fetty Tap" */;
+			buildPhases = (
+				FCD29E3A1BBC735D00E21106 /* Sources */,
+				FCD29E3B1BBC735D00E21106 /* Frameworks */,
+				FCD29E3C1BBC735D00E21106 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Fetty Tap";
+			productName = 1;
+			productReference = FCD29E3E1BBC735D00E21106 /* Fetty Tap.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FCD29E361BBC735D00E21106 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = "Dhruv Upadhyay";
+				TargetAttributes = {
+					FCD29E3D1BBC735D00E21106 = {
+						CreatedOnToolsVersion = 7.1;
+						DevelopmentTeam = 3GKN44XQ72;
+					};
+				};
+			};
+			buildConfigurationList = FCD29E391BBC735D00E21106 /* Build configuration list for PBXProject "Fetty Tap" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FCD29E351BBC735D00E21106;
+			productRefGroup = FCD29E3F1BBC735D00E21106 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FCD29E3D1BBC735D00E21106 /* Fetty Tap */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FCD29E3C1BBC735D00E21106 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FCE0AB481C13BD1400AEDD8F /* yeahbaby.mp3 in Resources */,
+				FCE0AB3E1C13BD1400AEDD8F /* sewedup.png in Resources */,
+				FCE0AB3D1C13BD1400AEDD8F /* sewedup.mp3 in Resources */,
+				FCE0AB3C1C13BD1400AEDD8F /* sewedup 2.png in Resources */,
+				FCE0AB3B1C13BD1400AEDD8F /* myway.mp3 in Resources */,
+				FCE0AB391C13BD1400AEDD8F /* HeyWhatsUpHello.mp3 in Resources */,
+				FC7FCED81BBCDD0800D6B121 /* Assets.xcassets in Resources */,
+				FCE0AB351C13BD1400AEDD8F /* 1738.png in Resources */,
+				FCE0AB381C13BD1400AEDD8F /* HeyWhatsUpHello 2.png in Resources */,
+				FCE0AB3A1C13BD1400AEDD8F /* HeyWhatsUpHello.png in Resources */,
+				FCD29E4C1BBC735D00E21106 /* LaunchScreen.storyboard in Resources */,
+				FC7FCED91BBCDD0800D6B121 /* Base.lproj in Resources */,
+				FCE0AB421C13BD1400AEDD8F /* Yeaaaaaah.png in Resources */,
+				FCE0AB341C13BD1400AEDD8F /* 1738.mp3 in Resources */,
+				FCE0AB361C13BD1400AEDD8F /* comemyway 2.png in Resources */,
+				FCD29E491BBC735D00E21106 /* Assets.xcassets in Resources */,
+				FCE0AB471C13BD1400AEDD8F /* yeah.mp3 in Resources */,
+				FCE0AB3F1C13BD1400AEDD8F /* squad 2.png in Resources */,
+				FCD29E471BBC735D00E21106 /* Main.storyboard in Resources */,
+				FCE0AB401C13BD1400AEDD8F /* squad.mp3 in Resources */,
+				FCE0AB4A1C13BD9B00AEDD8F /* fettytap.png in Resources */,
+				FCE0AB431C13BD1400AEDD8F /* Yeaaaaah 2.png in Resources */,
+				FCE0AB461C13BD1400AEDD8F /* Yeah baby.png in Resources */,
+				FCE0AB451C13BD1400AEDD8F /* Yeah baby 2.png in Resources */,
+				FCE0AB411C13BD1400AEDD8F /* squad.png in Resources */,
+				FCE0AB441C13BD1400AEDD8F /* YEAAAH.png in Resources */,
+				FCE0AB331C13BD1400AEDD8F /* 1738 2.png in Resources */,
+				FCE0AB371C13BD1400AEDD8F /* comemyway.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FCD29E3A1BBC735D00E21106 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FCD29E441BBC735D00E21106 /* ViewController.swift in Sources */,
+				FCD29E421BBC735D00E21106 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		FCD29E451BBC735D00E21106 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FCD29E461BBC735D00E21106 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FCD29E4A1BBC735D00E21106 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FCD29E4B1BBC735D00E21106 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FCD29E4E1BBC735D00E21106 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FCD29E4F1BBC735D00E21106 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FCD29E511BBC735D00E21106 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = 1/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Dhruv.-";
+				PRODUCT_NAME = "Fetty Tap";
+			};
+			name = Debug;
+		};
+		FCD29E521BBC735D00E21106 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = 1/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Dhruv.-";
+				PRODUCT_NAME = "Fetty Tap";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FCD29E391BBC735D00E21106 /* Build configuration list for PBXProject "Fetty Tap" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FCD29E4E1BBC735D00E21106 /* Debug */,
+				FCD29E4F1BBC735D00E21106 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FCD29E501BBC735D00E21106 /* Build configuration list for PBXNativeTarget "Fetty Tap" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FCD29E511BBC735D00E21106 /* Debug */,
+				FCD29E521BBC735D00E21106 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FCD29E361BBC735D00E21106 /* Project object */;
+}
