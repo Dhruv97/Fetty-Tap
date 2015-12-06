@@ -6,4 +6,4 @@ A Fetty Wap soundboard that plays some popular lines from Fetty Wap's songs
  
  ** NO COPYRIGHT INFRINGEMENT INTENDED.**
 
- - This application uses copyrighted material in a manner that does not require approval of the copyright holder. It is a fair use under copyright law. **
+ ** This application uses copyrighted material in a manner that does not require approval of the copyright holder. It is a fair use under copyright law. **
