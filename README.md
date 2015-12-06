@@ -1,7 +1,7 @@
 # Fetty-Tap
 A Fetty Wap soundboard that plays some popular lines from Fetty Wap's songs 
 
-<img src="screenshot.png"/>
+<img src="screenshot.png"/ height:50px, width: 50px>
 
  *This application is not associated with Fetty Wap or RGF Entertainment *  
  
